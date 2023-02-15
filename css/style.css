@@ -1,10 +1,9 @@
 .box{
-    width:220px;
-    height: 230px;
     /* border: 1px solid gray; */
     text-align: center;
     border-radius: 10px;
     box-shadow: 4px 4px 8px gray;
+    margin-bottom: 30px;
 }
 .buy-btn{
     padding:10px 10px;

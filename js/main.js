@@ -91,6 +91,9 @@ function totalCost(){
        document.getElementById("promo-code").value = ""
     }else{
         alert("your promocode is wrong,,plese provide a valid promocode")
+        const discount = total - (total*0.1);
+        setIdInnerText("all-total", discount)   
+        document.getElementById("promo-code").value = ""
     }
 
     if(budget <total){
